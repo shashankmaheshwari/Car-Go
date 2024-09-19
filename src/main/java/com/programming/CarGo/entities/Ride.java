@@ -22,7 +22,10 @@ public class Ride {
     private Point pickupLocation;
 
     @Column(columnDefinition = "Geometry(Point,4326)")
+<<<<<<< HEAD
 
+=======
+>>>>>>> c2bf75242966963b7f8122b269b433f1f8f90c40
     private Point dropOffLocation;
 
     @CreationTimestamp

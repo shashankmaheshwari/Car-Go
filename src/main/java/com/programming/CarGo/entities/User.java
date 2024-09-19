@@ -16,6 +16,10 @@ public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+<<<<<<< HEAD
+=======
+
+>>>>>>> c2bf75242966963b7f8122b269b433f1f8f90c40
     private String name;
 
     @Column(unique = true)
